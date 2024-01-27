@@ -34,7 +34,11 @@ A React based expression which provide a easy way for user to generate JSON outp
     ### react-copy-to-clipboard
     ### react-id-generator
 
+## Key Features
 
+### User can generate JSOn output of a complex nested expression.
+
+### User can directly copy the JSON output.
 
 
 ## Screenshot
