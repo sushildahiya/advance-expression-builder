@@ -13,9 +13,11 @@ function App() {
    *  Function to handle change of nesting level of field or group.
    */
   const onDragEnd = (result) => {
-    if (result.destination){
-      handleDragNDrop(result.draggableId,result.destination.droppableId)
-    }
+   setTimeout(()=>{
+      if (result.destination){
+        handleDragNDrop(result.draggableId,result.destination.droppableId)
+      }
+    },1000)
   };
   
  
