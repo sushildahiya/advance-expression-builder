@@ -1,0 +1,30 @@
+.outputContainer{
+    border:1px solid grey;
+    border-style: double;
+    border-width: 3px;
+    border-radius: 10px 0px 10px 0px;
+    padding:1em;
+}
+
+.outputContent{
+    position: relative;
+}
+.copyBtn{
+    position:absolute;
+    top: -2.5em;
+    right:.2em;
+}
+.button:hover{
+    background-color: transparent;
+}
+
+.outputBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height:72vh;
+    overflow-y: auto;
+    background-color: rgb(202, 199, 199);
+    padding:.5em;
+}
+

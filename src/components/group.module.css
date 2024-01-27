@@ -1,0 +1,33 @@
+.groupContainer{
+    background-color: rgb(158, 158, 240);
+    /* border: 2px solid rgb(248, 248, 248); */
+    padding:.3em;
+    margin:.3em;
+    width: 97%;
+}
+.container{
+    width: 99%;
+    padding:.3em;
+    background-color: rgb(158, 158, 240);
+    margin: auto;
+    border: 2px solid rgb(248, 248, 248);
+
+}
+
+.groupContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.groupContent Button{
+    margin:.3em;
+}
+.inputFieldRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: .3em 0 .3em 0;
+}
+.inputFieldRow Button{
+    margin-left:1em;
+}
